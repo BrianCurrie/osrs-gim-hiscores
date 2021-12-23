@@ -50,19 +50,22 @@ async function getGroupStats(groupName) {
 }
 
 function toStatsObject(rawData) {
+    // Turn raw CSV data to a usable JSON structure
     let userData = {};
     for (let i = 0; i < keys.stats.length; i++) {
         const currRow = rawData[i].split(/,/);
         if (currRow.length === 3) {
+            // Skills
             userData[keys.stats[i]] = {
                 rank: currRow[0],
                 level: currRow[1],
                 experience: currRow[2],
             };
         } else if (currRow.length === 2) {
+            // Minigames and bosses
             userData[keys.stats[i]] = {
                 rank: currRow[0],
-                value: currRow[1],
+                score: currRow[1],
             };
         }
     }

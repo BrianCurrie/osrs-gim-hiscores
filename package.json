@@ -20,6 +20,7 @@
     ],
     "author": "BrianCurrie",
     "license": "ISC",
+    "homepage": "https://github.com/BrianCurrie/osrs-gim-hiscores",
     "dependencies": {
         "axios": "^0.24.0",
         "jsdom": "^19.0.0"
