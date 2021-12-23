@@ -1,0 +1,27 @@
+{
+    "name": "osrs-gim-hiscores",
+    "version": "1.0.0",
+    "description": "An easy way to get Group Ironman hiscores for Old School Runescape",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "osrs",
+        "runescape",
+        "api",
+        "json",
+        "group",
+        "gim",
+        "hiscores",
+        "oldschool",
+        "group",
+        "ironman"
+    ],
+    "author": "BrianCurrie",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "jsdom": "^19.0.0"
+    }
+}
