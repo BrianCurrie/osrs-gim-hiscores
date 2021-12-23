@@ -1,6 +1,6 @@
 {
     "name": "osrs-gim-hiscores",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An easy way to get Group Ironman hiscores for Old School Runescape",
     "main": "index.js",
     "scripts": {
